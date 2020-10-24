@@ -5,7 +5,7 @@ let start
 let lastTouchTimestamp = 0
 const button = document.querySelector('button')
 button.addEventListener('touchstart', () => {
-  start = +new Date
+  start = start+new Date
   lastTouchTimestamp = start
 })
 
